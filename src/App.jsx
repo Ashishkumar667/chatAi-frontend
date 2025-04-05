@@ -19,7 +19,7 @@ function App() {
     setResponse('');
 
     try {
-      const res = await axios.post('https://serverless.on-demand.io/apps/chatai', {
+      const res = await axios.post('https://serverless.on-demand.io/apps/chatai/chat', {
         prompt,
         sessionId,
       });
